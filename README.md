@@ -27,7 +27,7 @@
 
 2. Получаем url запрос.
 ```
-$route = $_SERVER['REQUEST_URI'];
+    $route = $_SERVER['REQUEST_URI'];
 ```
 3. Используем статический метод route компонента Router.
 ```
