@@ -20,7 +20,7 @@
 ### Использование 
 
 1. Пишем массив с путями в начальном файле либо в отдельном.
-```
+```php
     $routes = [
         '/' => 'functions/homepage.php',
         '/about' => 'functions/about.php',
