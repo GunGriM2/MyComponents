@@ -18,16 +18,15 @@
 ### Использование 
 
 1. Пишем массив с путями в начальном файле либо в отдельном.
-
-> $routes = [
->     '/' => 'functions/homepage.php',
->     '/about' => 'functions/about.php',
-> ];
+    > $routes = [
+    >     '/' => 'functions/homepage.php',
+    >     '/about' => 'functions/about.php',
+    > ];
 
 2. Получаем url запрос.
-> $route = $_SERVER['REQUEST_URI'];
+    > $route = $_SERVER['REQUEST_URI'];
 
 3. Используем статический метод route компонента Router.
-> Router::route($route, $routes);
+    > Router::route($route, $routes);
 
 
