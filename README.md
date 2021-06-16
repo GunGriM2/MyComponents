@@ -28,11 +28,11 @@
 ```
 
 2. Получаем url запрос.
-```
+```php
     $route = $_SERVER['REQUEST_URI'];
 ```
 3. Используем статический метод route компонента Router.
-```
+```php
     Router::route($route, $routes);
 ```
 
