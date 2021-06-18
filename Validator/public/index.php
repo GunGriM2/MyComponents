@@ -13,7 +13,6 @@ $validation = $validate->check($_POST, [
     'email' => [
         'required' => true,
         'email' => true,
-        'unique' => 'test',
     ],
     'password' => [
         'required' => true,
